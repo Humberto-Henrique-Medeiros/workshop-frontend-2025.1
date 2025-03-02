@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Gifs" sizes="16x16"  href="/Gifs/favicons/favicon-16x16.png"><!--imagenzinha da pagina la encima!-->
+    
+    <title>Pokémon</title>
+    <style>
+        
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+        body {
+            min-height: 100%;
+            background-color: rgba(0, 132, 255, 0.538)
+           ;/*linkar a imagem de fundo*/
+            background-image: url(./imagens/pokemon-pikachu-3840x2160-10924.jpg);
+            /*linkar a imagem de fundo*/ 
+            min-height: 100%;
+            background-size: 105%;
+            background-repeat: no-repeat; /*colocar o "t" no repeat*/ /* para que a imagem não se repita*/
+        }
+
+        div{
+            
+            position: absolute;/*localização*/ 
+            top: 80%;/*localização*/ 
+            left: 50%;
+            transform: translate(-50%,-50%);/*localização*/ 
+            padding: 50px;/*parte preta do meio*/ 
+            
+            color: rgb(60, 0, 255);/*cor do nome "login"*/ 
+
+        }
+        
+        button{
+    width: 100%;
+    padding: 1%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: clamp(8px,5vw,1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #b0a312;
+    box-shadow: -2px 3px 0 #181818, -4px 6px 0 #030303;
+    cursor: pointer;
+            
+        }
+        img{
+           
+            width: 80px; /*tamanho do bola*/
+            height: 50px;/*tamanho do da bola*/
+            left: 50%;
+            transform: translate(-50%,-50%);/*localização*/ 
+            
+            
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <br>
+        <img src="Gifs/pokeball-pokemon.gif">  
+    </main>
+    <div>
+        <h1>Clique Aqui</h1>
+    <br>
+    <button onclick="window.location.href='index2.html'; ">Cartas</button>
+</div>
+
+</body>
+</html>

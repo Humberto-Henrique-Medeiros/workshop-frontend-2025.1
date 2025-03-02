@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom,#ff0000,#ffff);
+    min-height: 100vh;
+    
+}
+
+.img{
+    height: 700px;
+    width: 600px;
+    text-align: center;
+}
+
+
+.pokebola{
+    position: absolute;
+    bottom: 48%;
+    left: 20%;
+    height: 50%;
+
+}
+
+.pokemon-imagem{
+    position: absolute;
+    bottom: 64%;
+    left: 49%;
+    transform: translate(-50%,0);
+    height: 20%;
+    z-index: 2; /* A Imagem do Pokémon ficar a frente */
+
+}
+
+.pokemon-data {
+    font-size:clamp(8px,5vw);
+    text-transform: capitalize;
+    position: absolute;
+    font-weight: 600;
+    color: #030303;
+    top: -1%;
+    right: 40%;
+    padding: 11px; /* Espaçamento maior para destacar */
+}
+
+.form{
+    position: absolute;
+    width: 55%;
+    top: 54%;
+    left: 21%;
+}
+
+.input{
+    width: 100%;
+    padding: 2%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(8px,5vw,1rem);
+    box-shadow: -3px 4px 0 #888,-5px 7px 0 #333;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 25%;
+    left: 52%;
+    width: 55%;
+    transform: translate(-57%,0);
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    width: 50%;
+    padding: 1%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: clamp(8px,5vw,1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #030303;
+    cursor: pointer;
+
+}
+.button:active {
+    background-color: #ff0000;
+    box-shadow: -2px 3px 0 #222;
+    font-size: 0.9rem;
+}
+
+
+.botao-inicio{
+    width: 50%;
+    padding: 1%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: clamp(8px,5vw,1rem);
+    font-weight: 600;
+    color: rgb(1, 1, 1);
+    background-color: #ffffff;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #030303;
+    cursor: pointer;
+    position: absolute;
+    bottom: 90%;
+    left: -50%;
+    width: 25.3%;
+    transform: translate(-57%,0);
+    display: flex;
+    gap: 10px;
+}
